@@ -1,0 +1,20 @@
+[chain]
+name = "unofficial-102"
+
+[account]
+name = "mdyring"
+address = "17D96C629275251A0639607A06DA01566A042461"
+
+[coins]
+fermion = 10000
+dyringcoin = 100000
+
+[[validator]]
+name = "mdyring"
+pub_key = "6DFC219475B1BEA1394507A56FF63CF5AD8CEC9DA2C04A8DD550B029E37AA132"
+power = 1
+
+[[sentry]]
+name = ""
+host = ""
+p2p = 46656

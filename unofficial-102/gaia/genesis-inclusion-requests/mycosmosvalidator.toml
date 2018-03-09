@@ -1,0 +1,39 @@
+[chain]
+name = "unofficial-102"
+
+[account]
+name = "mycosmosvalidator-faucet"
+address = "B0B12BFB8886A8584AEE5645BDEE3316F3B6DDD9"
+
+[coins]
+fermion = 10000000
+
+[[sentry]]
+name = "mycosmosvalidator-a"
+host = "gaia-unofficial-102-a.mycosmosvalidator.com"
+p2p = 46656
+
+[[sentry]]
+name = "mycosmosvalidator-b"
+host = "gaia-unofficial-102-b.mycosmosvalidator.com"
+p2p = 46656
+
+[[sentry]]
+name = "mycosmosvalidator-c"
+host = "gaia-unofficial-102-c.mycosmosvalidator.com"
+p2p = 46656
+
+[[validator]]
+name = "mycosmosvalidator-a"
+pub_key = "84BCA079E9A770DBC788AB50982D9A81877428AD417C2EC20BFD74F8BA689198"
+power = 1
+
+[[validator]]
+name = "mycosmosvalidator-b"
+pub_key = "0C9DAD2D69A1EC5FFB34E5F7BB09C8D579907E4CE99C0D751BA093A8C39F1C68"
+power = 1
+
+[[validator]]
+name = "mycosmosvalidator-c"
+pub_key = "894D3530BE820302DD94FF261863D7038A892EF39D8FD039D09D23632E4B7FC6"
+power = 1

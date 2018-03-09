@@ -1,0 +1,24 @@
+# https://github.com/toml-lang/toml
+
+proxy_app = "tcp://127.0.0.1:46658"
+moniker = ""
+fast_sync = true
+
+db_backend = "leveldb"
+log_level = "state:info,*:error"
+
+[rpc]
+laddr = "tcp://0.0.0.0:46657"
+
+[consensus]
+create_empty_blocks_interval = 60
+
+[tx_index]
+index_all_tags = true
+
+[p2p]
+max_num_peers = 300
+pex = true
+laddr = "tcp://0.0.0.0:46656"
+# sentry names: michael, , brandon, cosmos01, cosmos02, cosmos03, cosmos04, cosmos05, cosmos06, cosmos07, cosmos08, cosmos09, cosmos10, , sunny, chris, , validstate, tony, adrian-one, adrian-two, mycosmosvalidator-a, mycosmosvalidator-b, mycosmosvalidator-c, pbostrom, suyuuu
+seeds = "172.31.28.156:46656,169.229.198.105:46656,cosmos01.validator.tokenpla.net:46656,cosmos02.validator.tokenpla.net:46656,cosmos03.validator.tokenpla.net:46656,cosmos04.validator.tokenpla.net:46656,cosmos05.validator.tokenpla.net:46656,cosmos06.validator.tokenpla.net:46656,cosmos07.validator.tokenpla.net:46656,cosmos08.validator.tokenpla.net:46656,cosmos09.validator.tokenpla.net:46656,cosmos10.validator.tokenpla.net:46656,148.76.42.147:46656,52.15.176.85:46656,35.195.251.208:5653,104.198.227.222:46656,67.207.78.91:46656,165.227.246.236:46656,gaia-unofficial-102-a.mycosmosvalidator.com:46656,gaia-unofficial-102-b.mycosmosvalidator.com:46656,gaia-unofficial-102-c.mycosmosvalidator.com:46656,34.229.209.18:46656,116.62.62.39:46656"

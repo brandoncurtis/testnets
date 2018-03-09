@@ -1,0 +1,19 @@
+[chain]
+name = "unofficial-102"
+
+[account]
+name = "amr"
+address = "EC09B951803763F6D8754EA2374D2DDC35952D7A"
+
+[coins]
+fermion = 10000
+
+[[validator]]
+name = "amr"
+pub_key = "87C1154E2D4EF3F6B60744F6D62B39B2689A59FBE95042DFFEC86FA8723C48E2"
+power = 1
+
+[[sentry]]
+name = ""
+host = ""
+p2p = 46656

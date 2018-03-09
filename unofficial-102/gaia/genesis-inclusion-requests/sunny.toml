@@ -1,0 +1,19 @@
+[chain]
+name = "unofficial-102"
+
+[account]
+name = "sunny"
+address = "5FE41244386A3D429EA65198E27F0A233A86FAAB"
+
+[coins]
+fermion = 10000
+
+[[sentry]]
+name = "sunny"
+host = "148.76.42.147"
+p2p = 46656
+
+[[validator]]
+name = "sunny"
+pub_key = "0BC9C9BEE2C9BE6D1D0DDC36F0A2C895D00213A7F7369C6A4432271CB0BB39C9"
+power = 1

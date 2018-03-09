@@ -1,0 +1,71 @@
+[chain]
+name = "unofficial-102"
+
+[account]
+name = "brandon"
+address = "3A75D80740B58E7C769CC374BBD014E87337F0E9"
+
+[coins]
+fermion = 1000000
+radarrelaycoin = 10000
+brandoncoin = 10000
+
+[[sentry]]
+name = "brandon"
+host = "169.229.198.105"
+p2p = 46656
+
+[[sentry]]
+name = "cosmos01"
+host = "cosmos01.validator.tokenpla.net"
+p2p = 46656
+
+[[sentry]]
+name = "cosmos02"
+host = "cosmos02.validator.tokenpla.net"
+p2p = 46656
+
+[[sentry]]
+name = "cosmos03"
+host = "cosmos03.validator.tokenpla.net"
+p2p = 46656
+
+[[sentry]]
+name = "cosmos04"
+host = "cosmos04.validator.tokenpla.net"
+p2p = 46656
+
+[[sentry]]
+name = "cosmos05"
+host = "cosmos05.validator.tokenpla.net"
+p2p = 46656
+
+[[sentry]]
+name = "cosmos06"
+host = "cosmos06.validator.tokenpla.net"
+p2p = 46656
+
+[[sentry]]
+name = "cosmos07"
+host = "cosmos07.validator.tokenpla.net"
+p2p = 46656
+
+[[sentry]]
+name = "cosmos08"
+host = "cosmos08.validator.tokenpla.net"
+p2p = 46656
+
+[[sentry]]
+name = "cosmos09"
+host = "cosmos09.validator.tokenpla.net"
+p2p = 46656
+
+[[sentry]]
+name = "cosmos10"
+host = "cosmos10.validator.tokenpla.net"
+p2p = 46656
+
+[[validator]]
+name = "brandon"
+pub_key = "98683F1418228F4D5FEEAFE98E77BEF9DF19D81B9794CC786D40B533D67DA21E"
+power = 100

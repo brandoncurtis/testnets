@@ -1,0 +1,19 @@
+[chain]
+name = "unofficial-102"
+
+[account]
+name = "michael"
+address = "8CDA0D295A6D1241EA33C754353816C31BB55FB5"
+
+[coins]
+fermion = 10000
+
+[[sentry]]
+name = "michael"
+host = "172.31.28.156"
+p2p = 46656
+
+[[validator]]
+name = ""
+pub_key = "9D8B07D6E3A32F099C0BD5F594112C1A05FB2F4201201E1E90BBF195F94D6672"
+power = 1

@@ -1,0 +1,25 @@
+[chain]
+name = "unofficial-102"
+
+[account]
+name = "tony"
+address = "0E3EB6EBF52CE2598A0A971CB92A8C20DC899159"
+
+[coins]
+fermion = 10000
+l33tco1n = 1337
+
+[[sentry]]
+name = "tony"
+host = "104.198.227.222"
+p2p = 46656
+
+[[validator]]
+name = "tony1"
+pub_key = "92FCE89A12231135F6B5E07C58C82BEDF855EE92B406B768F4B1618A061FBE05"
+power = 1
+
+[[validator]]
+name = "tony2"
+pub_key = "D6EA9CC8AA50FDAB8C48697AC9E63A4DDB269B3A85115487E36AC9E0F7DB48E0"
+power = 1

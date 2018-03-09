@@ -1,0 +1,20 @@
+[chain]
+name = "unofficial-102"
+
+[account]
+name = "kris"
+address = "7E961C2F8435B3D9235098407F49F5E132C06646"
+
+[coins]
+fermion = 10000
+kriscoin = 100000
+
+[[sentry]]
+name = ""
+host = ""
+p2p = 46656
+
+[[validator]]
+name = ""
+pub_key = ""
+power = 1
